@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Gift Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Snowflakes -->
+        <div id="snow"></div>
+
+        <!-- Gift Box -->
+        <div class="gift-container">
+            <img src="assets/gift.png" alt="Gift Box" class="gift-box" id="giftBox">
+            <p class="gift-message" id="giftMessage">Click to Open Your Gift!</p>
+        </div>
+
+        <!-- Unwrapped Message -->
+        <div class="message-container hidden" id="messageContainer">
+            <div class="card">
+                <h1>🎄 Merry Christmas! 🎄</h1>
+                <p>Wishing you joy, peace, and all the magic of the season.</p>
+                <button id="replayButton">Replay</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
