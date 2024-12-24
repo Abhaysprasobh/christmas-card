@@ -28,8 +28,8 @@ This is the popup that appears after the gift icon is clicked, showing a festive
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/react-christmas-hero.git
-   cd react-christmas-hero
+   git clone https://github.com/Abhaysprasobh/christmas-card.git
+   cd christmas-card
    ```
 
 2. Install dependencies:
@@ -78,7 +78,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - [Your Name](https://github.com/Abhaysprasobh)
 - Email: abhay.s.prasobh@gmail.com
-
----
-
-With the images added under the "Screenshots" section, your README file will now contain a visual reference for users.
