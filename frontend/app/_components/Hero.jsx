@@ -3,48 +3,47 @@ import React from "react";
 const Hero = ({ onButtonClick }) => {
   return (
     <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        height: "100vh",
-        backgroundImage: "url(/xmas.jpg)",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        color: "#8B0000",
-        textAlign: "center",
-        fontFamily: "'Merriweather', serif",
-      }}
+      className="flex flex-col items-center justify-center h-screen bg-cover bg-center text-red-800 text-center font-serif"
+
     >
-      <h1 style={{ fontSize: "3rem", marginBottom: "0.5rem", textTransform: "uppercase", letterSpacing: "0.1rem" }}>I Wish You</h1>
-      <h2 style={{ fontSize: "4rem", marginBottom: "1rem", fontWeight: "bold" }}>Merry Christmas</h2>
-      <p style={{ fontSize: "1.5rem", marginBottom: "2rem" }}>And Happy New Year!</p>
-      <div style={{ display: "flex", alignItems: "center", marginBottom: "2rem" }}>
+      <h1 className="text-3xl mb-2 uppercase tracking-wide">I Wish You</h1>
+      <div className="flex items-baseline gap-2">
         <img
-          src="/holly-icon.png"
+          src="/leaf.png"
           alt="Holly"
-          style={{ width: "40px", height: "40px", marginRight: "0.5rem" }}
+          className="w-12 transform rotate-90"
         />
+        <h2 className="text-7xl font-bold">Merry</h2>
         <img
-          src="/holly-icon.png"
+          src="/leaf.png"
           alt="Holly"
-          style={{ width: "40px", height: "40px", marginLeft: "0.5rem" }}
+          className="w-12 ml-2 rotate-180"
+        />
+      </div>
+      <h2 className="text-5xl font-bold mb-4">Christmas</h2>
+      <p className="text-xl">And</p>
+      <div className="flex items-baseline mb-8">
+        <img
+          src="/bell.png"
+          alt="Bell"
+          className="w-4 mr-2"
+        />
+        <p className="text-xl mb-8">Happy New Year!</p>
+        <img
+          src="/bell.png"
+          alt="Bell"
+          className="w-4 ml-2"
         />
       </div>
       <button
         onClick={onButtonClick}
-        style={{
-          padding: "0.75rem 1.5rem",
-          fontSize: "1rem",
-          color: "#fff",
-          backgroundColor: "#8B0000",
-          border: "none",
-          borderRadius: "5px",
-          cursor: "pointer",
-        }}
+        className="px-6 py-3 rounded-md cursor-pointer"
       >
-        Open Present
+        <img
+          src="/gift.png"
+          alt="Bell"
+          className="w-[25vw]"
+        />
       </button>
     </div>
   );
