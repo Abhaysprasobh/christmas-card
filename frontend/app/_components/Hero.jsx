@@ -19,7 +19,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative flex flex-col items-center justify-center h-screen bg-yellow-50 bg-cover bg-center text-red-800 text-center font-serif">
+    <div className="relative flex flex-col items-center justify-center h-screen bg-red-200 bg-cover bg-center text-red-800 text-center font-serif">
       {/* Snowfall Effect */}
       {showSnow && <Snowfall snowflakeCount={300} />}
 
@@ -53,10 +53,6 @@ const Hero = () => {
           src="/gift.png"
           alt="Gift"
           className="w-[25vw] relative z-10"
-          style={{
-            filter:
-              "drop-shadow(0 0 10px rgba(255, 223, 0, 0.8)) drop-shadow(0 0 20px rgba(255, 223, 0, 0.6))",
-          }}
         />
       </button>
 
