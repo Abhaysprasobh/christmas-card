@@ -14,13 +14,13 @@ This project contains a React component that adds a festive touch to the Christm
 
 ### Hero Section (Before Gift Click)
 
-![Hero Section](assets/screenshot1.png)
+![Hero Section](assets/screenshot1.jpg)
 
 This is the main hero section of the Christmas page where the user can interact with the gift icon.
 
 ### Popup After Gift Click
 
-![Popup Section](assets/screenshot2.png)
+![Popup Section](assets/screenshot2.jpg)
 
 This is the popup that appears after the gift icon is clicked, showing a festive message and playing the Christmas song.
 
